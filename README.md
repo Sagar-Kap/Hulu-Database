@@ -4,4 +4,4 @@
 
 Grab your popcorn and enjoy this simple webpage. Maybe you will find something to watch later?
 
-[Enjoy!](public/images/giphy.gif)
+![Enjoy!](/public/images/giphy.gif)
