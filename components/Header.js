@@ -11,8 +11,8 @@ import HeaderItem from "./HeaderItem";
 
 function Header() {
   return (
-    <header className="flex flex-col sm:flex-row m-5 justify-between items-center">
-        <div className="flex flex-grow justify-evenly max-w-2xl">
+    <header className="flex flex-col items-center justify-between m-5 sm:flex-row">
+        <div className="flex flex-grow max-w-2xl justify-evenly">
             <HeaderItem title="HOME" Icon={HomeIcon} />
             <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />
             <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon} />
@@ -28,4 +28,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header;
